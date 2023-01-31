@@ -46,7 +46,10 @@ const styles = StyleSheet.create({
     elevation:5
   },
   registerContainer:{
-    marginBottom: 30, 
+    marginBottom: 40, 
+    ...StyleSheet.absoluteFill,
+    zIndex:-1,
+    justifyContent: 'center'
   },
   closedCircleButton:{
     height:40,
@@ -64,6 +67,7 @@ const styles = StyleSheet.create({
     elevation:1,
     alignItems: 'center',
     borderRadius: 20,
+    marginTop: '-5%'
   }
 });
 
